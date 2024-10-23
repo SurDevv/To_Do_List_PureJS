@@ -1,0 +1,18 @@
+#board, #input, #main, #toDoColumn, #currentColumn, #doneColumn{
+  border-style: solid;
+}
+#board {
+  display: flex;
+  flex-direction: column;
+}
+#main {
+  display: flex;
+  justify-content: space-between;
+}
+#input{
+  display: flex;
+  justify-content: center;
+}
+#toDoColumn, #currentColumn, #doneColumn {
+  flex: auto;
+}
